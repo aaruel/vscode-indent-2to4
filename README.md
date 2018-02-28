@@ -1,5 +1,5 @@
-# Indent 4-to-2
-Converts indentation from tab or 4 spaces into 2 spaces.
+# Indent 2-to-4
+Converts indentation from tab or 2 spaces into 4 spaces.
 
 ![Demostration of using this extension](https://raw.githubusercontent.com/compulim/vscode-indent-4to2/master/demo.gif)
 
@@ -9,7 +9,7 @@ You can use both command palette or keyboard shortcuts to converts indentation. 
 ### Run with Command Palette
 
 * Press `F1` or `Ctrl+Shift+P` for Command Palette
-* Type or find "Convert indentation from tab or 4 spaces into 2 spaces"
+* Type or find "Convert indentation from tab or 2 spaces into 4 spaces"
 
 ### Binding to keyboard shortcuts
 
@@ -18,14 +18,11 @@ You can use both command palette or keyboard shortcuts to converts indentation. 
 
 ```js
 {
-  "key": "ctrl+shift+2",
-  "command": "4to2.convert4to2",
-  "when": "editorFocus"
+    "key": "ctrl+shift+2",
+    "command": "2to4.convert2to4",
+    "when": "editorFocus"
 }
 ```
-
-## Change log
-* 0.1.2 (2016-02-09): Updated to use new API reference, technically `vscode^0.11.x`, to align with VS Code 0.10.8 (January 2016)
 
 ## Contributions
 Love this extension? [Star](https://github.com/compulim/vscode-4to2/stargazers) us!
